@@ -171,7 +171,7 @@ pipeline {
                         "--build-arg JENKINS_UID=${jenkins_uid}"
                     ].join(" ")
                     docker.build(
-                        "ptpapp-drreport-python",
+                        "ptpapp-drvalidate-python",
                         "${build_args} -f ci/Dockerfile.python ci"
                     )
                 }
