@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>DRValidation</name>
-	<description>Dimenteq - LiVi - DR Validator</description>
+	<description>Sitowise - LiVi - DR Validator</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
