@@ -1,6 +1,6 @@
 ## Digiroad OTH - Validointityökalu
 
-Sovelluksella luodaan validointeja OTH kannan tietolajeista. Validoinnit suoritetaan tietolajeittain ja  niillä voidaan seurata kannan ominaisuustietojen laatua.
+Sovelluksella luodaan validointeja OTH kannan tietolajeista. Validoinnit suoritetaan tietolajeittain ja niillä voidaan seurata kannan ominaisuustietojen laatua.
 
 ## Kehitysympäristön pystyttäminen
 
@@ -22,7 +22,7 @@ mvn -B clean package
 ## Rajapinta
 
 Metodi: GET
- 
+esim. http://localhost:9001/dr-validate/validate/result/100
 
 ## Testit
 
