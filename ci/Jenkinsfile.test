@@ -7,19 +7,13 @@ def get_environment() {
 
 def get_robotframework_dmz_external() {
     if (get_environment().equals("dev")) {
-        return [
-          "https://kehitysjulkinen.liikennevirasto.fi"
-        ]
+        return []
     }
     if (get_environment().equals("prod")) {
-        return [
-          "https://julkinen.liikennevirasto.fi"
-        ]
+        return ["http://oag.vayla.fi"]
     }
     if (get_environment().equals("test")) {
-      return [
-        "https://testijulkinen.liikennevirasto.fi"
-      ]
+      return ["http://testioag.vayla.fi"]
     }
     return []
 }
